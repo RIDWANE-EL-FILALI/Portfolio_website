@@ -19,6 +19,7 @@ export default function mobileNav() {
             isMobileNavOpen = false;
             document.body.style.overflowY = 'auto';
         } else {
+            document.body.style.overflowY = 'hidden';
             nav.style.display = 'flex';
             isMobileNavOpen = true;
         }
