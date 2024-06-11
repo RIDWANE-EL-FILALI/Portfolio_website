@@ -18,6 +18,7 @@ export default function setTheme() {
                 document.body.classList.add('light_mode');
                 themeImages.forEach(image => {
                     image.src = image.src.replace('Light', 'Dark');
+                    
                 });
             } else {
                 theme = 'dark';
